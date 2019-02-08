@@ -1,0 +1,12 @@
+base:
+  titulo: Fluxo 1 - Interno
+  versao: Versão 19.01 (07/02/2019)
+  produto: CUECA COM costura - PRAIA - SHORT
+  caracteristicas:
+    fase: [
+      "Corte: Interno",
+      "Estamparia: Interna ou Sem",
+      "Costura: Interna"
+    ]
+conteudo:
+  mundo: 'Mundo'

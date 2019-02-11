@@ -18,7 +18,7 @@ dot_template = {
 
         ''',
         {'type': 'loop',
-         'dict': 'caracteristicas',
+         'name': 'caracteristicas',
          'repeat': '''${fase}
             '''},
         '"',

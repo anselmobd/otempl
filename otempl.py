@@ -21,7 +21,7 @@ class OTempl:
                     for var in re.findall('\$\{(.+?)\}', item):
                         result[part][var] = ''
                 elif isinstance(item, dict):
-                    subkey = item['dict']
+                    subkey = item['name']
                     subitem = item['repeat']
                     result[part][subkey] = {}
                     for var in re.findall('\$\{(.+?)\}', subitem):
@@ -54,7 +54,7 @@ class OTempl:
                     self.mount(item)
                 elif isinstance(item, dict):
                     if item['type'] == 'loop':
-                        subkey = item['dict']
+                        subkey = item['name']
                         subitem = item['repeat']
                         dictkeys = list(fv[part][subkey].keys())
                         first_values = fv[part][subkey][dictkeys[0]]

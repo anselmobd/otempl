@@ -13,7 +13,7 @@ base:
         ${produto}
 
   - type: loop
-    dict: caracteristicas
+    name: caracteristicas
     repeat: |
       ${fase}
   - |

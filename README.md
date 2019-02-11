@@ -39,3 +39,7 @@ There are only one special block functionality implemented:
 The values data is a dictionary of values obey the name spaces (part name, spatial "name" value) and has the name used in template.
 
 The type of the values can be any, but can be special rules for special blocks, like: the variables in a name space of a loop are lists with the same size.
+
+### History
+
+Version 0.1 2019-02-08 (C) Anselmo Blanco Dominguez (Oxigenai) . First version

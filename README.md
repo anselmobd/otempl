@@ -1,4 +1,6 @@
-Template development exercise
+# otempl
+
+## Template development exercise
 
 Still extremely simple.
 

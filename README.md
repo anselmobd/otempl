@@ -22,7 +22,7 @@ The "O" at the beginnig is from Oxigenai, my small programming company.
 
 There is no error handling and the features are few.
 
-The template is a dictionary of "parts". The first part to be processed is the
+The template data is a dictionary of "parts". The first part to be processed is the
 "base" part.
 
 Each part has blocks of template that can be:
@@ -36,8 +36,12 @@ Special block are dictionaries with "type", "name" and more values.
 - "name" is a name space for the variables inside the special block
 - "type" indicate the funcionality of that block
 
-There are only one funcionality implemented:
+There are only one special block funcionality implemented:
 - "loop": that repeate something for the number of avaiable values for the
   inside variables
 - inside actual loop special block there are a variable called "repeat", that
   has a template chunk to repeat
+
+The values data is a dictionary of values obey the namespaces (part name, spatial "name" value) and has the name used in template.
+
+The type of the values can be any, but can be special rules for special blocks, like: the variables in a namespace of a loop are lists with the same size.
